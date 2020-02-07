@@ -1,0 +1,227 @@
+/*Start*/
+
+/*Adding the font required for this page*/
+@import url('https://fonts.google.com/?query=mon&selection.family=Montserrat');
+
+/*Customizing some basic things for html structure as per the page requirement*/
+html{
+    background-color: #F8F7FE;
+    min-width: 300px;
+}
+
+/*Setting up the size of logo and setting margin on it as per the page requirement*/
+.logo{
+    width: 5rem;
+    border: none;
+    margin: 0 5%;
+}
+
+/*setting background, font and font color for the website and setting the right margin as per the page requirement*/
+body{
+    margin: auto;
+    border: none;
+    background-image: url("master-files-landing-page/images/bg-image/scooter.svg");
+    background-position: center;
+    background-size: 38%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: 	#292929;
+}
+
+/*Setting up the placement of elements of the page as per the page requirement*/
+.m-content{
+    display: flex;
+    border: none;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 0 5%;
+}
+
+/*styling the paragraphs as per the page requirement*/
+p{
+    font-size: 1rem;
+}
+
+/*styling the check application link text as per the page requirement*/
+a{
+    color: #F28380;
+}
+
+/*Customizing the heading one, making it the biggest heading of the page as per the page requirement*/
+h1{
+    max-width: 21rem;
+    font-size: 3rem;
+}
+
+/*Customizing the heading two, making it the subheading to our main heading as per the page requirement*/
+h2{
+    max-width: 20rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/*Customizing the heading three, making it the heading for the main contact form as per the page requirement*/
+h3{
+    font-size: 2rem;
+    margin-bottom: -6px;
+}
+
+/*Customizing the heading four, making it the heading for our footer as per the page requirement*/
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+
+/*customizing the body contact form on the page with a drop shadow and positioning the form on the page correctly by adding margin to the bottom as per the page requirement*/
+.form{
+    border-radius: 5%;
+    border: none;
+    margin-bottom: 80px;
+    background-color: white;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.4);
+}
+
+/*Setting the margin around the contents of the form on the body as per the page requirement*/
+.form-content{
+    margin: 30px;
+    border: none;
+}
+
+/*Customizing the blocks and elements of the main contact form as per the page requirement*/
+input[type=text]{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #F4F4F6;
+    padding-left: 10px;
+}
+
+/* Customizing our drive with us button as per the page requirement*/
+.d-button{
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    color: #323030;
+    background-color: #50F1A9;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+/*Customizing the footer and its font sizes as per the page requirement*/
+footer{
+    background-color: #FFFD8C;
+    font-size: 14px;
+    padding-bottom: 15px;
+    border: none;
+}
+
+/*Setting up the placement of elements in footer as per the page requirement*/
+.f-content{
+    margin: 0 5%;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+/*displaying the two text input element of the footer contact form in-line as per the page requirement*/
+.hours, 
+.city{
+    display: inline-block;
+    margin-right: 1rem;
+    justify-content: space-between; 
+}
+
+/*setting up the width of the hours input of the footer contact form as per the page requirement*/
+.hours{
+    width: 80px;
+}
+
+/*setting up the width of the city input of the footer contact form as per the page requirement*/
+.city{
+    width: 150px;
+}
+
+/*Customizing the blocks and elements of the footer contact form as per the page requirement*/
+.footer-form input[type=text]{
+    background-color: #F4F4F6;
+    padding: 5px;
+    border: none;
+}
+
+/*Adding the submit button in-line, next to the contact form inputs as per the page requirement*/
+.submit{
+    display: inline-block;
+    border: none;
+}
+
+/* Customizing calculate button as per the page requirement*/
+.c-button{
+    width: 100%;
+    padding: 0.3rem 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff837f;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+/*Customizing the the social media icons as per the page requirement*/
+.facebook, 
+.instagram, 
+.twitter, 
+.linkedin{
+    margin-left: 30px;
+    border: none;
+    width: 1.4rem;
+    margin-top: 55px;
+
+}
+
+/*Formatting and changing some settings of the elements in the page as per the required view*/
+
+@media screen and (max-width: 905px){
+
+/*centering the elements of the body main content as per the page requirement*/
+.m-content{
+    justify-content: center;
+}
+
+/*centering the elements of the footer content as per the page requirement*/
+.f-content{
+    justify-content: center;
+}
+
+/*Adding a top margin to the main contact form as there is an image over it in this view*/
+.form{
+    margin-top: 45%;
+}
+
+/* positioning the image on the page properly as per the page requirement*/
+body{
+    background-position: 50% 32%;
+}
+
+/*Making the calculate button to adapt to the new view*/
+.c-button{
+    width: 100%;
+}
+
+/* positioning the whole icons div properly on the footer as per the page requirement*/
+.icons{
+    margin-top: -35px;
+    margin-bottom: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+}
+
+/*End*/
